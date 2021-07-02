@@ -1,0 +1,136 @@
+body{
+    /* color: aliceblue; */
+    background: linear-gradient(90deg, rgba(252,176,69,1) 0%,  rgba(253,29,29,1) 50%, rgba(131,58,180,1) 100%);
+    /* background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); */
+}
+
+.header{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    border: solid blue 5px;
+}
+
+.h3{
+    /* white-space: nowrap; */
+  width: 200px;
+  border: 1px solid #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.header h1{
+    text-align: center;
+}
+
+.games{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    /* background-color: black; */
+    font-family: fantasy;
+}
+
+.games h4{
+    color:white;
+    font-size: 20px;
+    font-family:'Arial Narrow Bold';
+    text-align: center;
+}
+
+.pro{
+    /* display: flex;
+    justify-self: space-between;
+    background-color: black;  
+    margin-bottom: 30px;
+    position: relative;
+    border: black;
+    border-radius: 25px; */
+    border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(border.png) 30 round;
+ } 
+ 
+.menu{
+    display: flex;
+    justify-self: flex end;
+    /* border: solid blueviolet; */
+    /* background-color: black; */
+    /* font-size: 20px; */
+    /* font-family: sans-serif; */
+    /* font-weight: 400; */
+    color: white; 
+}
+
+.menu a{
+    margin: 30px;
+}
+
+/* a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+  } */
+ 
+a:visited{
+    color: rgb(116, 2, 116);
+    background-color: cyan;
+}
+
+a:link{
+    color: rgb(216, 55, 55);
+    background-color: yellow;
+}
+
+a:hover {
+    color: rgb(226, 43, 156);
+    text-decoration: underline;
+    background-color: lightgreen;
+}
+
+
+a:active {
+    color: blue;
+  }
+
+/* .pro h4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    /* font-size: large; */
+/* } */ 
+
+/* .pro:hover h3{
+    opacity: 1;
+}
+
+.pro:hover img{
+    opacity: 0.4;
+} */
+
+/* .games image{
+    border: 10px solid black;
+    border-radius: 25px;
+} */
+
+h1{
+    color: black;
+    display: flex;
+    justify-content: center;
+    /* margin: 30px; */
+    /* border: solid blueviolet; */
+    /* margin-left: 50px; */
+    /* padding: 20px; */
+    /* padding-left: 50px; */
+}
+
